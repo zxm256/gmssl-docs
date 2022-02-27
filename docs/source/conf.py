@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'GmSSL'
+copyright = '2014-2022, GmSSL'
+author = 'GmSSL'
 
 release = '0.1'
 version = '0.1.0'
