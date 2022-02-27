@@ -1,4 +1,4 @@
-GmSSL API API文档
+GmSSL API文档
 =================================
  ​
 .. toctree::

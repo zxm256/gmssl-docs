@@ -11,19 +11,15 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 
    文档正在编写过程中
 
-Contents
+文档列表
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   about
    api/index
+   examples/index
+   about
 
 
-
-Indices and tables
-==================
- ​
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
