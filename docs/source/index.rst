@@ -18,5 +18,5 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   api/index
-   examples/index
+   api/index.rst
+   examples/index.rst
