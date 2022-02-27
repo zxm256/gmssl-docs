@@ -1,6 +1,7 @@
- GmSSL API API文档
- =================================
+GmSSL API API文档
+=================================
  ​
- .. toctree::
-    :maxdepth: 1
-    aes.md
+.. toctree::
+   :maxdepth: 2
+
+   aes.md

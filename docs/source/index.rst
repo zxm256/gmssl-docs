@@ -18,5 +18,14 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   api/aes.md
-   examples/index.rst
+   api/index
+   about
+
+
+
+ Indices and tables
+ ==================
+ ​
+ * :ref:`genindex`
+ * :ref:`modindex`
+ * :ref:`search`
