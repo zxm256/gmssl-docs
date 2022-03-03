@@ -19,10 +19,12 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
    :caption: Contents:
 
    overview.md
-   install/index
+   install.md
+   tools.md
+   interface_design.md
+   version.md
+   hash/index
 
-   api/index
-   examples/index
    about
 
 
