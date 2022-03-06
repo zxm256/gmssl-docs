@@ -23,6 +23,7 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
    hash/index
    hmac/index
    block_cipher/index
+   stream_cipher/index
    random/index
    public_cipher/index
    identity_based_crypto/index
