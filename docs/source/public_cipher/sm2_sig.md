@@ -1,3 +1,3 @@
-# SM2数字签名 (sm2.h)
+# SM2数字签名
 
 从SM2_SIGNATURE开始的接口

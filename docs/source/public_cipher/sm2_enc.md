@@ -1,3 +1,3 @@
-# SM2公钥加密 (sm2.h)
+# SM2公钥加密
 
 从SM2_CIPHERTEXT开始的接口
