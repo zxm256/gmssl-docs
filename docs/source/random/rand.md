@@ -1,4 +1,4 @@
-# 随机数生成接口(rand.h)
+# 随机数生成接口
 
 ```c
 int rand_bytes(uint8_t *buf, size_t buflen);
