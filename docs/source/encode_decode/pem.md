@@ -1,4 +1,4 @@
-# PEM文件格式(pem.h)
+# PEM文件格式
 
 ```c
 int pem_read(FILE *fp, const char *name, uint8_t *out, size_t *outlen, size_t maxlen);
