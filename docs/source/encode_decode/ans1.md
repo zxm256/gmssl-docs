@@ -67,8 +67,6 @@ int asn1_int_from_der_ex(int tag, int *val, const uint8_t **in, size_t *inlen); 
 
 ASN.1无符号整数的编解码。注意：不支持负数。
 
-// 比特长度不必须为8的整数倍
-
 ```c
 int asn1_bit_string_to_der_ex(int tag, const uint8_t *d, size_t nbits, uint8_t **out, size_t *outlen);
 int asn1_bit_string_from_der_ex(int tag, const uint8_t **d, size_t *nbits, const uint8_t **in, size_t *inlen);
