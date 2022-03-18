@@ -1,5 +1,3 @@
-# asn1.h
-
 # ASN.1/DER编码
 
 详细内容参见[GmSSL-ASN1-code](https://github.com/guanzhi/gmssl-v3-dev/blob/main/src/asn1.c)。
