@@ -14,10 +14,8 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 文档列表
 --------
 
-基本介绍、编译与安装、编程接口、命令行、开发实例
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 项目概况
 
    overview.md
@@ -25,19 +23,19 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 编译与安装
    
    compile.md
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 命令行
 
    command_tools.md
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 编程接口
 
    api.md
@@ -55,16 +53,15 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 开发实例
 
    examples/index
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 关于我们
-
-
+   
    about
 
 
