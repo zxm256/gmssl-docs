@@ -16,11 +16,14 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 
 .. toctree::
    :maxdepth: 2
-   :caption: 项目概况:
+   :caption: 项目概况
 
    overview.md
    version.md
-   :caption: 密码算法:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 密码算法
 
    hash/index
    hmac/index
@@ -31,11 +34,19 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
    identity_based_crypto/index
    encode_decode/index
    key_derive/index
-   
-   :caption: 证书通信:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 证书通信
 
    cert/index
    ssl/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 关于我们
+
+
    about
 
 
