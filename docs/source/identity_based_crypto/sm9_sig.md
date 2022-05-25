@@ -1,4 +1,5 @@
 # SM9数字签名
+
 ```c
 typedef struct {
 	SM9_TWIST_POINT Ppubs;
@@ -29,7 +30,7 @@ int sm9_sign_master_key_info_encrypt_to_der(const SM9_SIGN_MASTER_KEY *msk, cons
 int sm9_sign_master_key_info_decrypt_from_der(SM9_SIGN_MASTER_KEY *msk, const char *pass, const uint8_t **in, size_t *inlen);
 ```
 
-实现SM9签名主密钥信息在`SM9_SIGN_MASTER_KEY`结构和DER格式间的相互转换。
+实现SM9签名主密钥信息在`SM9_SIGN_MASTER_KEY`结构和加密DER格式存储间的相互转换。
 
 函数执行成功返回1，失败返回-1。
 
@@ -38,7 +39,7 @@ int sm9_sign_master_key_info_encrypt_to_pem(const SM9_SIGN_MASTER_KEY *msk, cons
 int sm9_sign_master_key_info_decrypt_from_pem(SM9_SIGN_MASTER_KEY *msk, const char *pass, FILE *fp);
 ```
 
-实现SM9签名主密钥信息在`SM9_SIGN_MASTER_KEY`结构和加密DER格式存储间的相互转换。
+实现SM9签名主密钥信息在`SM9_SIGN_MASTER_KEY`结构和加密PEM格式存储间的相互转换。
 
 函数执行成功返回1，失败返回-1。
 
