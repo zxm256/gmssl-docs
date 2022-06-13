@@ -1,4 +1,4 @@
-# gmssl命令行工具介绍
+# gmssl命令行工具
 
 GmSSL支持的命令可以通过`GmSSL --help`来查看，如下所示：
 ```
@@ -106,7 +106,7 @@ gmssl sm2keygen -pass 1234 -out sm2.pem -pubout sm2pub.pem
 
 -pass SM2私钥的加密口令
 
--id 指定签名使用的的ID（可选项，默认为1234567812345678）
+-id 指定签名使用的的D
 
 -in 待签名文件
 
@@ -115,8 +115,6 @@ gmssl sm2keygen -pass 1234 -out sm2.pem -pubout sm2pub.pem
 示例：
 
 ```
-gmssl sm2sign -key sm2.pem -pass 1234 -in data.txt -out sm2.sig 
-echo hello | gmssl sm2sign -key sm2.pem -pass 1234 -out sm2.sig 
 gmssl sm2sign -key sm2.pem -pass 1234 -in data.txt -out sm2.sig -id 1234567812345678
 echo hello | gmssl sm2sign -key sm2.pem -pass 1234 -out sm2.sig -id 1234567812345678
 ```
