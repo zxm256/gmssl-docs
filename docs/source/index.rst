@@ -30,9 +30,9 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
 
 .. toctree::
    :maxdepth: 1
-   :caption: 命令行
+   :caption: 命令行工具
 
-   command_tools.md
+   command_tools/index
 
 .. toctree::
    :maxdepth: 1
