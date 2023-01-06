@@ -12,3 +12,9 @@
    sm2_sig.md
    sm2_enc.md
    sm2_ecdh.md
+   sm2_blind.md
+   sm2_ring.md
+   sm2_commit.md
+   sm2_elgamal.md
+   sm2_keyshare.md
+   sm2_recover.md
