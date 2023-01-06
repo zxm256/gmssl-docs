@@ -7,8 +7,8 @@
    :maxdepth: 2
 
    ec.md
-   sm2_alg.md
+   sm2_algo.md
    sm2_key.md
-   sm_sig.md
-   sm_enc.md
-   sm_ecdh.md
+   sm2_sig.md
+   sm2_enc.md
+   sm2_ecdh.md
