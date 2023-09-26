@@ -51,6 +51,10 @@ GmSSL项目由北京大学关志副研究员的密码学研究组开发维护，
    cert/index
    ssl/index
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 多语言支持
+   multi_language/index
 
 .. toctree::
    :maxdepth: 1
