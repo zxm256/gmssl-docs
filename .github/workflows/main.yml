@@ -3,6 +3,8 @@ name: Update Docs
 on:
   push:
     branches: [ master ]
+  schedule:
+    - cron: "0 2 * * *"
 
 jobs:
   merge-to-nightly:
