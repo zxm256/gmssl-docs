@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'GmSSL'
-copyright = '2014-2022, GmSSL'
+copyright = '2014-2023, GmSSL'
 author = 'GmSSL'
 
 release = '0.1'
