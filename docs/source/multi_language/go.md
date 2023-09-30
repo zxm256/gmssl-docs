@@ -14,14 +14,69 @@ GmSSL-Go 是GmSSL密码库 https://github.com/guanzhi/GmSSL 的Go语言封装，
 
 目前GmSSL-Go功能可以覆盖除SSL/TLS/TLCP之外的国密算法主要应用开发场景。
 
+
+
 ## 开发入门
 
-GmSSL-Go的库代码位于`gmssl`目录下，示例位于`examples`目录下。在源代码的`examples`目录下执行
+首先创建一个新项目，并初始化模块
 
 ```bash
-go run .
+$ mkdir hello
+$ cd hello
 ```
 
-可以执行默认的测试程序，查看`examples/hello.go`了解更多用法。
+创建源文件`hello.go`
 
-同步时间: 2023-09-29 02:18:36
+```go
+package main
+
+import (
+	"fmt"
+	"gmssl"
+)
+
+func main() {
+	fmt.Println(gmssl.GetGmSSLLibraryVersion())
+}
+```
+
+```bash
+$ go mod init example.com/hello
+go: creating new go.mod: module example.com/hello
+```
+
+在项目模块中安装GmSSL-Go
+
+```bash
+$ go get github.com/GmSSL/GmSSL-Go@latest
+go: added github.com/GmSSL/GmSSL-Go v1.3.1
+```
+
+打开文件`go.mod`，内容如下
+```
+module example.com/hello
+
+go 1.21.1
+
+require github.com/GmSSL/GmSSL-Go v1.3.1 // indirect
+```
+
+在文件`go.mod`最后面添加一行
+```
+replace gmssl => github.com/GmSSL/GmSSL-Go v1.3.1
+```
+
+更新模块信息
+```bash
+$ go mod tidy
+go: found gmssl in gmssl v0.0.0-00010101000000-000000000000
+```
+
+编译执行
+```bash
+$ go build
+$ go run .
+GmSSL 3.1.1 Dev
+```
+
+同步时间: 2023-09-30 02:16:19
