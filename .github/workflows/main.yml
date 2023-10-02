@@ -5,7 +5,8 @@ on:
     branches: [ main ]
   schedule:
     - cron: "0 2 * * *"
-
+  workflow_dispatch:
+  
 jobs:
   merge-to-nightly:
     runs-on: ubuntu-latest
