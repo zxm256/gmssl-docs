@@ -769,4 +769,4 @@ func (sig *Sm9Signature) Verify(signature []byte, master_public_key *Sm9SignMast
 	sm9_verify.Update([]byte("abc"))
 	sm9_verify_ret := sm9_verify.Verify(sm9_signature, sm9_sign_master_pub, "Alice")
 	fmt.Print("Sm9 Verify success : ", sm9_verify_ret, "\n")
-```同步时间: 2024-08-26 02:33:58
+```同步时间: 2024-08-27 02:34:29
